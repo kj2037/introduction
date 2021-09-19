@@ -1,0 +1,8 @@
+ディレクトリのgit化手順
+
+1.mkdir ｘｘｘｘｘ で空のディレクトリ作成
+2.cd ｘｘｘｘｘ で作成したディレクトリに移動
+3.git init でディレクトリを .git フォルダ作成
+4.ls -a で.git ファイル(隠れファイル)ができているか確認
+5.ls .git/ でファイル内確認
+6.config  description  HEAD  hooks/  info/  objects/  refs/ ができているか確認
